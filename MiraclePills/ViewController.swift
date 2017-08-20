@@ -14,6 +14,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     @IBOutlet weak var CountiePickerBtn: UIButton!
     
+    @IBOutlet weak var BuyNowBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         CountiePicker.dataSource = self
@@ -21,13 +23,16 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    let Countie = ["Avon", "Bedfordshire", "Berkshire", "Buckinghamshire", "Cambridgeshire", "Cambridgeshire and Isle of Ely", "Cheshire", "City of Bristol", "City of London" ,"Cleveland", "Cornwall", "Cumberland", "Cumbria", "Derbyshire", "Devon", "Dorset", "Durham", "East Suffolk", "East Sussex", "Essex", "Gloucestershire", "Greater London", "Greater Manchester", "Hampshire", "Hereford and Worcester", "Herefordshire", "Hertfordshire", "Humberside", "Huntingdon and Peterborough", "Huntingdonshire", "Isle of Ely", "Isle of Wight", "Kent", "Lancashire", "Leicestershire", "Lincolnshire", "Parts of Holland", "Parts of Kesteven", "Parts of Lindsey", "London", "The Metropolis", "Merseyside", "Middlesex", "Norfolk",  "North Humberside", "North Yorkshire", "Northamptonshire", "Northumberland", "Nottinghamshire", "Oxfordshire", "Rutland", "Shropshire", "Soke of Peterborough", "Liberty", "Somerset", "South Humberside", "South Yorkshire", "Staffordshire", "Suffolk", "Surrey", "Sussex", "Tyne and Wear", "Warwickshire", "West Midlands", "West Suffolk", "West Sussex", "West Yorkshire", "Westmorland" ,"Wiltshire", "Worcestershire", "Yorkshire", "Yorkshire East Riding", "Yorkshire North Riding","Yorkshire West Riding"]
+    let Countie = ["Avon", "Bedfordshire", "Berkshire", "Buckinghamshire", "Cambridgeshire", "Cambridgeshire and Isle of Ely", "Cheshire", "City of Bristol", "City of London" ,"Cleveland", "Cornwall", "Cumberland", "Cumbria", "Derbyshire", "Devon", "Dorset", "Durham", "East Suffolk", "East Sussex", "Essex", "Gloucestershire", "Greater London", "Greater Manchester", "Hampshire", "Hereford and Worcester", "Herefordshire", "Hertfordshire", "Humberside", "Huntingdon and Peterborough", "Huntingdonshire", "Isle of Ely", "Isle of Wight", "Kent", "Lancashire", "Leicestershire", "Lincolnshire", "Parts of Holland", "Parts of Kesteven", "Parts of Lindsey", "London", "The Metropolis", "Merseyside", "Middlesex", "Norfolk",  "North Humberside", "North Yorkshire", "Northamptonshire", "Northumberland", "Nottinghamshire", "Oxfordshire", "Rutland", "Shropshire", "Soke of Peterborough", "Liberty", "Somerset", "South Humberside", "South Yorkshire", "Staffordshire", "Suffolk", "Surrey", "Sussex", "Tyne and Wear", "Warwickshire",  "West Midlands", "West Suffolk", "West Sussex", "West Yorkshire", "Westmorland" ,"Wiltshire", "Worcestershire", "Yorkshire", "Yorkshire East Riding", "Yorkshire North Riding","Yorkshire West Riding"]
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func BuyNowBtn(_ sender: Any) {
+    }
+    
     @IBAction func CountieButtnPressed(_ sender: Any) {
         
         CountiePicker.isHidden = false
