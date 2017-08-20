@@ -29,6 +29,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
 
     @IBAction func CountieButtnPressed(_ sender: Any) {
+        
+        CountiePicker.isHidden = false
     }
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -38,6 +40,12 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return Countie[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        
+        CountiePickerBtn.setTitle(Countie[row], for: UIControlState.normal)
+        CountiePicker.isHidden = true
     }
 }
 
