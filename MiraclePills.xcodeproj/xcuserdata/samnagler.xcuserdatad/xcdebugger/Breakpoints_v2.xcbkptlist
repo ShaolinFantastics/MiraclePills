@@ -26,7 +26,7 @@
                   moduleName = "MiraclePills"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/samnagler/Documents/IOS%20Development/IOS%20Course/Foundational%20IOS/Miracle%20Pills/MiraclePills/MiraclePills/ViewController.swift"
-                  timestampString = "524857461.119891"
+                  timestampString = "524912399.121023"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -41,7 +41,7 @@
                   moduleName = "MiraclePills"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/samnagler/Documents/IOS%20Development/IOS%20Course/Foundational%20IOS/Miracle%20Pills/MiraclePills/MiraclePills/ViewController.swift"
-                  timestampString = "524857461.123045"
+                  timestampString = "524912399.124347"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -56,7 +56,7 @@
                   moduleName = "MiraclePills"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/samnagler/Documents/IOS%20Development/IOS%20Course/Foundational%20IOS/Miracle%20Pills/MiraclePills/MiraclePills/ViewController.swift"
-                  timestampString = "524857461.126044"
+                  timestampString = "524912399.130862"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -71,7 +71,7 @@
                   moduleName = "MiraclePills"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/samnagler/Documents/IOS%20Development/IOS%20Course/Foundational%20IOS/Miracle%20Pills/MiraclePills/MiraclePills/ViewController.swift"
-                  timestampString = "524857461.129117"
+                  timestampString = "524912399.135194"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -86,7 +86,7 @@
                   moduleName = "MiraclePills"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/samnagler/Documents/IOS%20Development/IOS%20Course/Foundational%20IOS/Miracle%20Pills/MiraclePills/MiraclePills/ViewController.swift"
-                  timestampString = "524857461.132205"
+                  timestampString = "524912399.138313"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -117,7 +117,7 @@
                   moduleName = "MiraclePills"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/samnagler/Documents/IOS%20Development/IOS%20Course/Foundational%20IOS/Miracle%20Pills/MiraclePills/MiraclePills/ViewController.swift"
-                  timestampString = "524857461.146544"
+                  timestampString = "524912399.149099"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -132,7 +132,7 @@
                   moduleName = "MiraclePills"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/samnagler/Documents/IOS%20Development/IOS%20Course/Foundational%20IOS/Miracle%20Pills/MiraclePills/MiraclePills/ViewController.swift"
-                  timestampString = "524857461.150471"
+                  timestampString = "524912399.152696"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -147,7 +147,7 @@
                   moduleName = "MiraclePills"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/samnagler/Documents/IOS%20Development/IOS%20Course/Foundational%20IOS/Miracle%20Pills/MiraclePills/MiraclePills/ViewController.swift"
-                  timestampString = "524857461.153729"
+                  timestampString = "524912399.157759"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -162,7 +162,7 @@
                   moduleName = "MiraclePills"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/samnagler/Documents/IOS%20Development/IOS%20Course/Foundational%20IOS/Miracle%20Pills/MiraclePills/MiraclePills/ViewController.swift"
-                  timestampString = "524857461.1568"
+                  timestampString = "524912399.161697"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -177,7 +177,7 @@
                   moduleName = "MiraclePills"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/samnagler/Documents/IOS%20Development/IOS%20Course/Foundational%20IOS/Miracle%20Pills/MiraclePills/MiraclePills/ViewController.swift"
-                  timestampString = "524857461.160003"
+                  timestampString = "524912399.166298"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -185,6 +185,22 @@
                   offsetFromSymbolStart = "31">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiraclePills/ViewController.swift"
+            timestampString = "524910165.558116"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "numberOfComponents(in:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -31,11 +31,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBAction func CountieButtnPressed(_ sender: Any) {
     }
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 0
-
-    }
-    func pickerViewNumberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 0
+        return 1
     }
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return Countie.count
