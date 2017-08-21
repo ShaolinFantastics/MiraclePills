@@ -16,6 +16,14 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     @IBOutlet weak var BuyNowBtn: UIButton!
     
+    
+    @IBOutlet weak var CountryLabel: UILabel!
+    @IBOutlet weak var CountryText: UITextField!
+    
+    @IBOutlet weak var ZIPLabel: UILabel!
+    @IBOutlet weak var ZIPText: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         CountiePicker.dataSource = self
@@ -36,6 +44,10 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBAction func CountieButtnPressed(_ sender: Any) {
         
         CountiePicker.isHidden = false
+        CountryLabel.isHidden = true
+        CountryText.isHidden = true
+        ZIPLabel.isHidden = true
+        ZIPText.isHidden = true
     }
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -51,6 +63,10 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
         CountiePickerBtn.setTitle(Countie[row], for: UIControlState.normal)
         CountiePicker.isHidden = true
+        CountryLabel.isHidden = false
+        CountryText.isHidden = false
+        ZIPLabel.isHidden = false
+        ZIPText.isHidden = false
     }
 }
 
